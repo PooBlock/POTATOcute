@@ -34,6 +34,7 @@ public class Bot1 {
         jda.addEventListener(new reactionrole());
         jda.addEventListener(new automod1());
         jda.addEventListener(new EmbedMaker());
+        jda.addEventListener(new DataBase1());
     }
         
 }
